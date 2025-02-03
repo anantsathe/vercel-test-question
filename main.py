@@ -1,7 +1,7 @@
 # main.py
-#from fastapi import FastAPI
+from fastapi import FastAPI
 
-#app = FastAPI()
+app = FastAPI()
 
 #@app.get("/")
 #def read_root():
@@ -11,7 +11,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 
-app = Flask(__name__)
+#app = Flask(__name__)
 CORS(app)
 
 # Dictionary of students with names as keys and marks as values
